@@ -1,3 +1,4 @@
+<?php
 /**
  * Iconic – Image converter to `.ico`
  *
