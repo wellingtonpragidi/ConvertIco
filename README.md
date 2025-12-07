@@ -1,3 +1,5 @@
+[![GitHub release](https://img.shields.io/github/v/release/wellingtonpragidi/Iconic)]()
+[![License](https://img.shields.io/github/license/wellingtonpragidi/Iconic)]()
 # Iconic
 
 **README.md (English)**
