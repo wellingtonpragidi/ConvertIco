@@ -271,12 +271,4 @@ class Iconic {
         return $image;
     }
 
-
-    /**
-     * cleanup
-     */
-    public function __destruct() {
-        $this->images = [];
-    }
-
 }
