@@ -1,6 +1,6 @@
-[![GitHub release](https://img.shields.io/github/v/release/wellingtonpragidi/Iconic)]()
-[![License](https://img.shields.io/github/license/wellingtonpragidi/Iconic)]()
-# Iconic
+[![GitHub release](https://img.shields.io/github/v/release/wellingtonpragidi/ConvertIco)]()
+[![License](https://img.shields.io/github/license/wellingtonpragidi/ConvertIco)]()
+# ConvertIco
 
 **README.md (English)**
 ## Image to ICO converter
@@ -23,14 +23,14 @@ The converter automatically handles multiple sizes inside the same ICO when desi
 
 ```php
 
-$ico = new Iconic( 'file', [32, 32] );
+$ico = new ConvertIco( 'file', [32, 32] );
 $ico->save( __DIR__ . '/favicon.ico' );
 ```
 
 #### Example 2 — From Local File Path
 ```php
 $filepath = '/path/to/image.png';
-$ico = new Iconic( $filepath, [32, 32], false );
+$ico = new ConvertIco( $filepath, [32, 32], false );
 $ico->save( __DIR__ . '/favicon.ico' );
 ```
 
