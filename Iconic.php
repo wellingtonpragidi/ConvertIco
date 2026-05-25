@@ -1,6 +1,6 @@
 <?php
 /**
- * Iconic – Image converter to `.ico`
+ * ConvertIco – Image converter to `.ico`
  *
  * Modern and minimalistic class to generate multi-size `.ico` files
  * from PNG, JPEG, GIF, BMP or WEBP, preserving transparency.
@@ -11,7 +11,7 @@
  * full of garbage, or overly complicated for something simple.
  *
  * Usage:
- * $ico = new Iconic( 'file', [64, 64] );
+ * $ico = new ConvertIco( 'file', [64, 64] );
  * $ico->save( __DIR__ . '/favicon.ico' );
  *
  * - Requires PHP 8+
@@ -22,7 +22,7 @@
  * @author  Wellington Pragidi
  * @license MIT
  */
-class Iconic {
+class ConvertIco {
 
     private array $images = [];
 
